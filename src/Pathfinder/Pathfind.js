@@ -468,7 +468,7 @@ const changeWallWeight = () => {
 
 		return (  
 				<div className="Wrapper">
-						<h1>Pathfinding Visualizer</h1>
+						<h1>Algorithm based shortest path visualizer</h1>
 						<button className="button button1" onClick={()=> {isVisualized = false;	algo = "Astar"; visualizePath();}}>Visualize Astar</button>
 						<button className="button button2" onClick={() => {isVisualized = false; algo="Dijkstra"; visualizePath();}}>Visualize Dijkstra</button>
 						<button className="button button3" onClick={()=>{ isVisualized = false;clearGrid();}}>Clear Grid</button>
